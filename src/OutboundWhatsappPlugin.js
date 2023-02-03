@@ -8,13 +8,13 @@ import CannedResponses from './components/CannedResponses/CannedResponses';
 import BubbleMessageWrapper from './components/attachments/BubbleMessageWrapper/BubbleMessageWrapper'
 import ImageModal from './components/attachments/ImageModal/ImageModal';
 import LoadingComponent from './components/attachments/LoadingComponent/LoadingComponent';
-import Supervisor from './components/supervisor/supervisor';
+// import Supervisor from './components/supervisor/supervisor';
 import PasteMediaComponent from './components/attachments/PasteMediaComponent/PasteMediaComponent';
 import SendMediaComponent from './components/attachments/SendMediaComponent/SendMediaComponent';
 import SendMediaService from './services/SendMediaService';
 import { setUpActions, setUpComponents, setUpNotifications } from './helpers';
 
-import CustomTaskListContainer from './components/History/HistoryConversation';
+// import CustomTaskListContainer from './components/History/HistoryConversation';
 import reducers, { namespace } from './states';
 // import { ContextUtil } from "./utils/ContextUtil";
 import QueueSummaryView from "./components/QueueSummary";

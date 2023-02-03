@@ -2,5 +2,9 @@
 	"AC97f4cd05afa0be5de5ec89674b7dc013": {
 		"serviceSid": "ZS3a06de7515d9ec31b4636d77a18cf99e",
 		"latestBuild": "ZB7ebbbc66b1fdc91b31031cd20c8a617d"
+	},
+	"AC718cbc1546aabdb72f3f63ef30f669b0": {
+		"serviceSid": "ZS21c27058cad5acf7c381e627c8483869",
+		"latestBuild": "ZB0a7d1683042e0587ad0dbaceeb933cd8"
 	}
 }

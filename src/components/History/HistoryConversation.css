@@ -1,0 +1,61 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+/*Style Body Message Text*/
+.chat-message-body {
+    font-size: 13px;
+}
+
+/* Style from/to text */
+.chat-friendly-name{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 2px;
+}
+
+/* Style time text */
+.time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  /* Style time text */
+  .time-left {
+    text-align: end;
+    font-size: 10px;
+  }
+.card {
+    max-width: 75%;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.is-primary-sender {
+    background-color: rgb(43, 184, 38);
+}
+
+.is-not-primary-sender {
+    background-color: rgb(236,237, 241);
+}
+
+.chat-footer {
+    padding: 15px;
+}
+
+.container {
+    width: 100%;
+    flex-direction: column ;
+    overflow-y: scroll;
+}
+
+.loadingMessage {
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    padding: -5px;
+}
+
+.css-1l7ff1y {
+    padding-right: 25px;
+}

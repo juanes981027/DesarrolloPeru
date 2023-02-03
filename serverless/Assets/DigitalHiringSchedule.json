@@ -1,0 +1,44 @@
+{
+    "holidays": {
+      "12/25/2019": {
+        "description": "Christmas"
+      }
+    },
+    "partialDays": {
+      "12/26/2019": {
+        "begin": "10:00:00",
+        "end": "14:00:00",
+        "description": "Day after Christmas"
+      }
+    },
+    "regularHours": {
+      "Monday": {
+        "begin": "09:00:00",
+        "end": "19:00:00"
+      },
+      "Tuesday": {
+        "begin": "09:00:00",
+        "end": "19:00:00"
+      },
+      "Wednesday": {
+        "begin": "09:00:00",
+        "end": "19:00:00"
+      },
+      "Thursday": {
+        "begin": "09:00:00",
+        "end": "19:00:00"
+      },
+      "Friday": {
+       "begin": "09:00:00",
+        "end": "18:00:00"
+      },
+      "Saturday": {
+        "begin": "00:00:00",
+        "end": "00:00:00"
+      },
+      "Sunday": {
+       "begin": "00:00:00",
+        "end": "00:00:00"
+      }
+    }
+  }

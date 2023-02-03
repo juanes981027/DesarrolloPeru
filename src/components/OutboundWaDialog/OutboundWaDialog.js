@@ -7,6 +7,7 @@ import * as Flex from "@twilio/flex-ui";
 import { Container , Title , Label, ContactData} from "./OutboundWaDialog.styles";
 import taskService from "../../services/TaskService";
 
+var number = "";
 
 class OutboundWaDialog extends React.Component {
   constructor(props) {
@@ -68,7 +69,7 @@ class OutboundWaDialog extends React.Component {
                     <input type="text" id="phoneNumber"
                         onChange={e => this.setPhone(e.target.value)}
                         onBlur={(e) => {
-                            this.setPhone(e.target.value);
+                           number =  this.setPhone(e.target.value);
                           }}    
                     />
                 </ContactData>
